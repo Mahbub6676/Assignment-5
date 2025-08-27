@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+  .nav{
+    display: block;
+    margin-bottom: 100px;
+  }
+  .banner{
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    margin: 2px;
+    width: 100%;
+  }
+  .box{
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+    .box div:nth-child(4) {
+    order: 999;
+  }
+}
